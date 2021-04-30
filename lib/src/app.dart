@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ui/movie_list.dart';
+import 'package:flutter_clean_architecture/src/ui/screens/movie_screen.dart';
 
 class App extends StatelessWidget {
   @override
@@ -7,7 +7,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       home: Scaffold(
-        body: MovieList(),
+        body: MovieScreen(),
       ),
     );
   }

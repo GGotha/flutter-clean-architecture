@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../models/item_model.dart';
-import '../blocs/movies_bloc.dart';
+import 'package:flutter_clean_architecture/src/blocs/movies_bloc.dart';
+import 'package:flutter_clean_architecture/src/models/item_model.dart';
 
 class MovieList extends StatelessWidget {
   @override
